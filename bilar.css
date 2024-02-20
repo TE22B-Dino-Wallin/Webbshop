@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  h1{
+    text-align: center;
+  }
+  
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .bilar{
+    display: flex;
+    grid-column: 1/4;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  
+  .AudiRS6 img,
+  .AudiRS7 img,
+  .AudiRS3 img,
+  .AudiRSe-tron img {
+    width: 340px;
+    height: auto;
+    margin-left: 50px;
+    border: solid black;
+  }
+  
+  button{
+    margin: 20px auto;
+    display: block;
+
+  }
+

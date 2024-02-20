@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    width: 93%;
+    height: 100%;
+}
+
+.backdrop{
+    background-image: url(img/q6-e-tron_1920x1080.webp);
+    width: 1579px;
+    height: 600px;
+    background-size: 110% 120%;
+}
+.startsida-bild2{
+    margin-left: 90px;
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: 30% 70%; 
+    grid-template-rows: 100%;
+    width: 100%;
+}
+
+.bild2 img{
+    height: auto;
+    width: 400px;
+}
+
+.start-text{
+    width: 50%;
+    height: 90%;
+    margin: auto;
+
+}
+
+.text{
+    grid-column: 2/2;
+    grid-row: 1/1;
+    background-color: gray;
+    border-radius: 10%;    
+    font-size: x-large;
+    line-height: 1.5;
+}
+
+
+.bild2{
+    grid-row: 1/1;
+    grid-column: 1/1;
+    margin: auto;
+}

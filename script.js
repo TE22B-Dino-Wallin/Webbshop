@@ -7,3 +7,8 @@ function addKundvagn(bilnamn,pris) {
     "<li>" + bilnamn + " - " + pris + " kr</li>";
   document.getElementById("cart-total").textContent = total.toFixed(2);
 }
+function clearCart(params) {
+  document.querySelector("#cart-items").innerHTML = ""
+  document.getElementById("cart-total").textContent = 0;
+  
+}

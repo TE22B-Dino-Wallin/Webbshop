@@ -20,12 +20,22 @@ body{
     flex-wrap: nowrap;
     justify-content: space-between;
   }
+  .bilar2{
+    display: flex;
+    grid-column: 2/4;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
   
   .AudiRS6 img,
   .AudiRS7 img,
   .AudiRS3 img,
+  .AudiRSQ8 img,
+  .AudiR8 img,
+  .AudiRS4 img,
+  .Audidakar img,
   .AudiRSe-tron img {
-    width: 340px;
+    width: 260px;
     height: auto;
     margin-left: 50px;
     border: solid black;

@@ -66,7 +66,7 @@
     }
     
     .start-text{
-        width: 120%;
+        width: 100%;
         height: 90%;
         margin: auto;
     
@@ -97,13 +97,13 @@ body{
 
 .backdrop{
     background-image: url(img/q6-e-tron_webp.webp);
-    width: 120%;
+    width: 100%;
     height: 600px;
     background-size: 100% 100%;
 }
 .startsida-bild2{
     margin-left: 70px;
-    margin-top: 55px;
+    margin-top: 20px;
     display: grid;
     grid-template-columns: 30% 70%; 
     grid-template-rows: 100%;
@@ -117,7 +117,7 @@ body{
 
 .start-text{
     width: 50%;
-    height: 90%;
+    height: 100%;
     margin: auto;
 
 }

@@ -37,7 +37,7 @@
     width: 230px;
     height: auto;
     margin-left: 80px;
-    border: solid black;
+    border: 10px solid black;
   }
   
   button{
@@ -155,7 +155,7 @@
 
 
 }
-@media screen and (min-width: 1026px){ /* surfplatta */
+@media screen and (min-width: 1026px){ /* laptop */
 body{
     margin: 0;
     width: 100%;
@@ -232,7 +232,7 @@ body{
     width: 230px;
     height: auto;
     margin-left: 80px;
-    border: solid black;
+    border: 2px solid black;
   }
   
   button{

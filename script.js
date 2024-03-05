@@ -10,5 +10,5 @@ function addKundvagn(bilnamn,pris) {
 function clearCart(params) {
   document.querySelector("#cart-items").innerHTML = ""
   document.getElementById("cart-total").textContent = 0;
-  
+  total = 0;
 }

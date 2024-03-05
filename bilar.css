@@ -8,18 +8,22 @@
   h1{
     text-align: center;
   }
-  
+  h4{
+    text-align: center;
+  }
   .container{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-left: 150px;
+    margin-bottom: 20px;
   }
   
   .bilar{
     height: 150px;
     width: 150px;
+    margin-bottom: 50px;
   }
   .bilar img{
     height: 80px;
@@ -41,7 +45,7 @@
   }
   
   button{
-    margin: 20px auto;
+    margin: 10px auto;
     display: block;
     background-color: black;
     color: white;
@@ -49,7 +53,7 @@
     font-size: large;
   }
   button:active{
-    margin: 20px auto;
+    margin: 10px auto;
     display: block;
     background-color: white;
     color: black;
@@ -70,6 +74,9 @@
   h1{
     text-align: center;
   }
+  h4{
+    text-align: center;
+  }
   
   .container{
     display: grid;
@@ -80,8 +87,9 @@
   }
 
   .bilar{
-    width:  180px;
-    height: 180px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 50px;
   }
   .bilar img{
     height: 100px;
@@ -136,7 +144,7 @@
   }
   
   button{
-    margin: 20px auto;
+    margin: 10px auto;
     display: block;
     background-color: black;
     color: white;
@@ -144,7 +152,7 @@
     font-size: large;
   }
   button:active{
-    margin: 20px auto;
+    margin: 10px auto;
     display: block;
     background-color: white;
     color: black;
@@ -236,7 +244,7 @@ body{
   }
   
   button{
-    margin: 20px auto;
+    margin: 10px auto;
     display: block;
     background-color: black;
     color: white;
@@ -244,7 +252,7 @@ body{
     font-size: large;
   }
   button:active{
-    margin: 20px auto;
+    margin: 10px auto;
     display: block;
     background-color: white;
     color: black;

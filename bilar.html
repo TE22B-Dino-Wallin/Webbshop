@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="sv">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dino's Luxury Auto</title>
@@ -8,96 +8,90 @@
     <link rel="stylesheet" href="sidemeny.css" />
     <link rel="stylesheet" href="bilar.css" />
     <script defer src="./script.js"></script>
-  </head>
-  <body>
+</head>
+<body>
     <div class="sidemenu">
-      <div class="loga">
-        <img src="bilder/DLC.png" alt="" />
-        <p>Dino's Luxury Auto</p>
-      </div>
-
-      <hr />
-
-      <div class="loggor">
-        <div class="log1">
-          <a href="./index.html"><img src="./img/home.png" alt="home" /></a>
+        <div class="loga">
+            <img src="bilder/DLC.png" alt="" />
+            <p>Dino's Luxury Auto</p>
         </div>
-        <div class="log2">
-          <a href="./bilar.html"><img src="./img/car-alt.png" alt="Cars" /></a>
-        </div>
-        <div class="log3">
-          <a href="./plats.html"
-            ><img src="./img/marker.png" alt="locations"
-          /></a>
-        </div>
-      </div>
 
-      <div class="tom"></div>
+        <hr />
 
-      <div class="kundvagn">
-        <a href="./kundvagn.html"
-        ></a>
-      </div>
+        <div class="loggor">
+            <div class="log1">
+                <a href="./index.html"><img src="./img/home.png" alt="home" /></a>
+            </div>
+            <div class="log2">
+                <a href="./bilar.html"><img src="./img/car-alt.png" alt="Cars" /></a>
+            </div>
+            <div class="log3">
+                <a href="./plats.html"><img src="./img/marker.png" alt="locations" /></a>
+            </div>
+        </div>
+
+        <div class="tom"></div>
+
+        <div class="kundvagn">
+            <a href="./kundvagn.html"></a>
+        </div>
     </div>
 
     <div class="backdrop">
-      <div class="bild">
-        <img src="" alt="" />
-      </div>
+        <div class="bild">
+            <img src="" alt="" />
+        </div>
     </div>
 
     <h1>Bilar</h1>
-  <div class="container">
-      <div id="AudiRS6" class = "bilar">
-        <img src="./img/AudiRS6-webp.webp" alt="Audi RS6">
-        <h4>Audi RS6</h4>
-        <button onclick="addKundvagn('Audi RS6',1499999)">Lägg till</button>
-      </div>
-      <div id="AudiRS7" class = "bilar">
-        <img src="./img/AudiRS7-webp.webp" alt="Audi RS7">
-        <h4>Audi RS7</h4>
-        <button onclick="addKundvagn('Audi RS7',2999999)">Lägg till</button>
-      </div>
-      <div id="AudiRS3-2" class = "bilar">
-        <img src="./img/rs3-2-webp.webp" alt="Audi RS3">
-        <h4>Audi RS3</h4>
-        <button onclick="addKundvagn('Audi RS3',1199999)">Lägg till</button>
+    <div class="container">
+        <div id="AudiRS6" class="bilar">
+            <img src="./img/AudiRS6-webp.webp" alt="Audi RS6">
+            <h4>Audi RS6</h4>
+            <button class="add-to-cart" data-product-id="1">Lägg till</button>
+        </div>
+        <div id="AudiRS7" class="bilar">
+            <img src="./img/AudiRS7-webp.webp" alt="Audi RS7">
+            <h4>Audi RS7</h4>
+            <button class="add-to-cart" data-product-id="2">Lägg till</button>
+        </div>
+        <div id="AudiRS3-2" class="bilar">
+            <img src="./img/rs3-2-webp.webp" alt="Audi RS3">
+            <h4>Audi RS3</h4>
+            <button class="add-to-cart" data-product-id="3">Lägg till</button>
+        </div>
+        <div id="AudiRSe-tron" class="bilar">
+            <img src="./img/E tron.webp" alt="Audi RS e-tron GT">
+            <h4>Audi RSe-tron GT</h4>
+            <button class="add-to-cart" data-product-id="4">Lägg till</button>
+        </div>
+        <div id="AudiRSQ8" class="bilar">
+            <img src="./img/RSQ8webp.webp" alt="Audi RS Q8"/>
+            <h4>Audi RSQ8</h4>
+            <button class="add-to-cart" data-product-id="5">Lägg till</button>
+        </div>
+        <div id="AudiR8-2" class="bilar">
+            <img src="./img/r8-2webp.webp" alt="Audi R8"/>
+            <h4>Audi R8</h4>
+            <button class="add-to-cart" data-product-id="6">Lägg till</button>
+        </div>
 
-      </div>
-      <div id="AudiRSe-tron"class = "bilar">
-        <img src="./img/E tron.webp" alt="Audi RS e-tron GT">
-        <h4>Audi RSe-tron GT</h4>
-        <button onclick="addKundvagn('Audi RS7',2009999)">Lägg till</button>
-      </div>
-      <div id = "AudiRSQ8"class = "bilar">
-        <img src="./img/RSQ8webp.webp" alt="Audi RS Q8"/>
-        <h4>Audi RSQ8</h4>
-        <button onclick="addKundvagn('Audi RSQ8',2500000)">Lägg till</button>
-      </div>
-      <div id = "AudiR8-2"class = "bilar">
-        <img src="./img/r8-2webp.webp" alt="Audi R8"/>
-        <h4>Audi R8</h4>
-        <button onclick="addKundvagn('Audi R8',4000000)">Lägg till</button>
-      </div>
-      
-      <div id = "AudiRS4"class = "bilar">
-        <img src="./img/RS4webp.webp" alt="Audi RS4"/>
-        <h4>Audi RS4</h4>
-        <button onclick="addKundvagn('Audi RS4',1400000)">Lägg till</button>
-      </div>
-      <div id = "Audidakar"class = "bilar">
-        <img src="./img/dakarwebp.webp" alt="Audi dakar"/>
-        <h4>Audi Dakar rally car</h4>
-        <button onclick="addKundvagn('Audi dakar ',20000000)">Lägg till</button>
-      </div>
+        <div id="AudiRS4" class="bilar">
+            <img src="./img/RS4webp.webp" alt="Audi RS4"/>
+            <h4>Audi RS4</h4>
+            <button class="add-to-cart" data-product-id="7">Lägg till</button>
+        </div>
+        <div id="Audidakar" class="bilar">
+            <img src="./img/dakarwebp.webp" alt="Audi dakar"/>
+            <h4>Audi Dakar rally car</h4>
+            <button class="add-to-cart" data-product-id="8">Lägg till</button>
+        </div>
     </div>
 
-
     <div class="kundvagn">
-      <h2>Kundvagn</h2>
-      <ul id="cart-items">
-      </ul>
-      <p>Total: <span id="cart-total">0</span> kr</p>
-      <button onclick="clearCart()">Töm kundvagnen</button>
-  </div>
+        <h2>Kundvagn</h2>
+        <ul id="cart-items"></ul>
+        <div id="total-price"></div>
+    </div>
+</body>
 </html>
